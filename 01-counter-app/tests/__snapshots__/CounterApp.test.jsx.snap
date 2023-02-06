@@ -1,0 +1,40 @@
+// Vitest Snapshot v1
+
+exports[`Pruebas en <FirstApp /> > Debe hacer match con el snapshot 1`] = `
+<div>
+  <section
+    class="mt-8"
+  >
+    <h1
+      class="text-2xl font-bold"
+    >
+      CounterApp
+    </h1>
+    <h2
+      class="text-xl"
+    >
+      100
+    </h2>
+    <div
+      class="flex justify-center gap-1 mt-2"
+    >
+      <button
+        class="py-1 px-2 bg-slate-600 rounded-md hover:bg-slate-400 transition-all"
+      >
+        +1
+      </button>
+      <button
+        class="py-1 px-2 bg-slate-600 rounded-md hover:bg-slate-400 transition-all"
+      >
+        -1
+      </button>
+      <button
+        aria-label="btn-reset"
+        class="py-1 px-2 bg-slate-600 rounded-md hover:bg-slate-400 transition-all"
+      >
+        Reset
+      </button>
+    </div>
+  </section>
+</div>
+`;

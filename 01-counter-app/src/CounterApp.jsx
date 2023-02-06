@@ -15,7 +15,7 @@ export const CounterApp = ({ value = 0 }) => {
   return (
     <section className="mt-8">
       <h1 className="text-2xl font-bold">CounterApp</h1>
-      <h2 className="text-xl"> {counter} </h2>
+      <h2 className="text-xl">{counter}</h2>
       <div className="flex justify-center gap-1 mt-2">
         <button
           onClick={handleAdd}
@@ -30,6 +30,7 @@ export const CounterApp = ({ value = 0 }) => {
           -1
         </button>
         <button
+          aria-label="btn-reset"
           onClick={handleReset}
           className="py-1 px-2 bg-slate-600 rounded-md hover:bg-slate-400 transition-all"
         >

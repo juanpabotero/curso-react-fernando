@@ -17,7 +17,7 @@ export const FirstApp = ({ name, age }) => {
     <>
       {/* Puedo usar {} para poner expresiones validas de JavaScript,  
       recordar que las expresiones devuelven un valor */}
-      <h1>{getTitle("Este es el FirstAppComponent")}</h1>
+      <h1 data-testid="test-title">{getTitle("Este es el FirstAppComponent")}</h1>
       <p>
         Hola, mi nombre es {name} y tengo {age}
       </p>
