@@ -1,3 +1,5 @@
+import fetch from "node-fetch";
+
 export const getGifs = async (category) => {
   const url = `https://api.giphy.com/v1/gifs/search?api_key=bZI66xiIN7aD2cFTLVrVOkqeW18B1Grw&q=${category}&limit=10`;
   const resp = await fetch(url);
