@@ -9,6 +9,10 @@ import { Navbar } from "./Navbar";
 export const MainApp = () => {
   return (
     <UserProvider>
+      {/* <Link to="/">Home</Link>
+      <Link to="/about">About</Link>
+      <Link to="/login">Login</Link> */}
+      
       <Navbar />
       <hr />
 
